@@ -1,0 +1,888 @@
+@font-face {
+    font-family: 'Source-Sans-Pro-extra-bold';
+    src: url('fonts/SourceSansPro-Black.eot');
+    src: url('fonts/SourceSansPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SourceSansPro-Black.woff2') format('woff2'),
+        url('fonts/SourceSansPro-Black.woff') format('woff'),
+        url('fonts/SourceSansPro-Black.ttf') format('truetype'),
+        url('fonts/SourceSansPro-Black.svg#SourceSansPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source-Sans-Pro-normal-italic';
+    src: url('fonts/SourceSansPro-ExtraLightItalic.eot');
+    src: url('fonts/SourceSansPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SourceSansPro-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/SourceSansPro-ExtraLightItalic.woff') format('woff'),
+        url('fonts/SourceSansPro-ExtraLightItalic.ttf') format('truetype'),
+        url('fonts/SourceSansPro-ExtraLightItalic.svg#SourceSansPro-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source-Sans-Pro-normal-use';
+    src: url('fonts/SourceSansPro-Regular.eot');
+    src: url('fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url('fonts/SourceSansPro-Regular.woff') format('woff'),
+        url('fonts/SourceSansPro-Regular.ttf') format('truetype'),
+        url('fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source-Sans-Pro-light';
+    src: url('fonts/SourceSansPro-Light.eot');
+    src: url('fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SourceSansPro-Light.woff2') format('woff2'),
+        url('fonts/SourceSansPro-Light.woff') format('woff'),
+        url('fonts/SourceSansPro-Light.ttf') format('truetype'),
+        url('fonts/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source-Sans-Pro-bold';
+    src: url('fonts/SourceSansPro-Bold.eot');
+    src: url('fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SourceSansPro-Bold.woff2') format('woff2'),
+        url('fonts/SourceSansPro-Bold.woff') format('woff'),
+        url('fonts/SourceSansPro-Bold.ttf') format('truetype'),
+        url('fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source-Sans-Pro-normal';
+    src: url('fonts/SourceSansPro-ExtraLight.eot');
+    src: url('fonts/SourceSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SourceSansPro-ExtraLight.woff2') format('woff2'),
+        url('fonts/SourceSansPro-ExtraLight.woff') format('woff'),
+        url('fonts/SourceSansPro-ExtraLight.ttf') format('truetype'),
+        url('fonts/SourceSansPro-ExtraLight.svg#SourceSansPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Source-Sans-Pro-bold-normal';
+    src: url('fonts/SourceSansPro-SemiBold.eot');
+    src: url('fonts/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('fonts/SourceSansPro-SemiBold.woff') format('woff'),
+        url('fonts/SourceSansPro-SemiBold.ttf') format('truetype'),
+        url('fonts/SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.ced-logo-wrap {
+	text-align: center;
+	margin: 100px 0;
+}
+.ced-airbag-wrap {
+	width: 88%;
+	margin: 0 auto;
+}
+.ced-airbag-second-col-wrap {
+	width: 50%;
+}
+.ced-airbag-first-col-wrap {
+	width: 50%;
+}
+.ced-airbag-wrap-first h1 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 55px;
+	line-height: 64px;
+	margin-bottom: 30px;
+}
+.ced-airbag-wrap-first p {
+	font-family: Source-Sans-Pro-normal-use;
+	font-size: 21px;
+	line-height: 28px;
+}
+.ced-font {
+	font-family: Source-Sans-Pro-bold !important;
+}
+.ced-work-section-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+}
+.ced-first-card-content-wrap h5 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.ced-color {
+	color: #00bd3d;
+}
+.ced-airbag-second-image-wrap img {
+	width: 100%;
+}
+.ced-airbag-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.ced-work-section-wrap {
+	text-align: center;
+}
+.ced-how-work-section-wrapper {
+	width: 76%;
+	margin: 0 auto;
+}
+.ced-how-work-wrap-wrapper {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	background-image: url("images/Image 16.png");
+	background-position: 196px 30px;
+	background-repeat: no-repeat;
+	background-size: 610px;
+}
+.ced-first-card-content-wrap a {
+	text-decoration: none;
+	color: #ff2800;
+}
+.ced-exp-wrapper-content h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+}
+.ced-airbag-wrap-first p {
+	font-family: Source-Sans-Pro-bold-normal;
+	font-size: 21px;
+	line-height: 28px;
+	margin-bottom: 22px;
+}
+.ced-work-section-wrap h3 {
+	font-family: Source-Sans-Pro-bold !important;
+	margin-bottom: 14px;
+	font-size: 23px;
+}
+.ced-experience-wrapper {
+	background: #f7f7f7;
+	padding: 80px 0;
+}
+.ced-exp-content-wrap {
+	display: flex;
+	align-items: center;
+}
+.ced-exp-listing-wrap ul li {
+	line-height: 30px;
+	margin-bottom: 16px;
+	font-family: Source-Sans-Pro-bold-normal;
+}
+.ced-reset-col-first-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 50px;
+}
+.ced-reset-col-first-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+	width: 80%;
+}
+.ced-reset-col-first-wrap p {
+	font-family: Source-Sans-Pro-bold-normal;
+}
+.ced-client-head h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+	margin-bottom: 14px;
+}
+.ced-client-text-wrap p {
+	font-family: Source-Sans-Pro-normal-use;
+}
+.ced-exp-wrapper-content h2 {
+	margin-bottom: 30px;
+}
+.ced-reset-col-first-wrap p {
+	margin-bottom: 20px;
+}
+.ced-first-card-content-wrap p {
+	font-family: Source-Sans-Pro-normal-use;
+}
+.ced-reset-col-first-wrap h2 {
+	margin-bottom: 20px;
+}
+.ced-notice-head h2 {
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.ced-notice-head p {
+	margin-bottom: 20px;
+}
+.ced-notice-lisitng-wrapper ul li {
+	margin-bottom: 30px;
+}
+.ced-repare-card-content-wrap {
+	width: 30%;
+	margin-bottom: 50px;
+}
+.ced-tire-col-first-wrap h2 {
+	margin-bottom: 30px;
+}
+.ced-tire-col-first-wrap p {
+	margin-bottom: 20px;
+	line-height: 27px;
+}
+.ced-tire-col-first-wrap {
+	width: 80%;
+	float: right;
+}
+.ced--first-exp-wrap {
+	width: 42%;
+	margin-right: 5%;
+}
+.ced-second-exp-wrap {
+	width: 36%;
+}
+.ced-exp-wrapper-content h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 44px;
+}
+.ced-first-exp-image-wrap img {
+	width: 100%;
+}
+.ced-how-wroks-wrapper-wrap {
+	margin: 70px 0;
+}
+.ced-client-text-wrap h5 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 20px;
+}
+.ced-client-text-wrap p span {
+	color: #ccc;
+	font-size: 14px;
+}
+
+.ced-first-card-wrapper {
+	width: 26%;
+}
+.ced-reset-section-wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+.ced-reset-section-common-content {
+	display: flex;
+	margin: 100px 0;
+	justify-content: space-between;
+}
+.ced-second-reset-wrap {
+	width: 44%;
+}
+.ced-reset-first-col {
+	width: 50%;
+}
+.ced-reset-image-wrap img {
+	width: 100%;
+}
+.ced-ship-step-wrapper {
+	background: #f7f7f7;
+	padding: 100px 0;
+}
+.ced-ship-head-wrap {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.ced-ship-step-tracker {
+	text-align: center;
+	margin: 0 auto;
+}
+.ced-ship-number-count-wrapper {
+	width: 320px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 60px;
+}
+.ced-step-number-track {
+	width: 220px;
+    height: 55px;
+    margin-top: -200px !important;
+    font-family: 'Source-Sans-Pro-bold-normal';
+	border: 3px solid #919191;
+	border-radius: 50%;
+	width: 68%;
+	line-height: 51px;
+	color: #919191;
+	font-size: 30px;
+	font-weight: 900;
+	position: relative;
+	content: '';
+}
+.ced-step-number-track::after {
+	position: absolute;
+	content: '';
+	height: 220px;
+	width: 2px;
+	background: #919191;
+	top: 80px;
+	left: 30px;
+}
+.ced-step-number-track-last {
+	width: 220px;
+    height: 55px;
+    margin-top: -200px !important;
+    font-family: 'Source-Sans-Pro-bold-normal';
+	border: 3px solid #919191;
+	border-radius: 50%;
+	width: 68%;
+	line-height: 51px;
+	color: #919191;
+	font-size: 30px;
+	font-weight: 900;
+	position: relative;
+}
+.ced-ship-head-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+}
+.ced-srs-common-content h4 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.ced-srs-common-content p {
+	font-family: Source-Sans-Pro-normal-use;
+}
+.ced-srs-common-content p span {
+	color: red;
+	font-family: Source-Sans-Pro-bold !important;
+}
+.ced-work-section-wrap h5 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 23px;
+}
+.ced-comon-content-wrapper h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+}
+.ced-comon-content-wrapper p {
+	font-family: Source-Sans-Pro-bold-normal;
+	font-size: 17px;
+	line-height: 30px;
+}
+.ced-remove-srs-wrapper {
+	width: 310%;
+}
+.ced-step-number-track {
+	width: 72%;
+	margin-top: -200px !important;
+}
+.ced-client-section-wrap {
+	padding: 100px 0;
+	width: 75%;
+	margin: 0 auto;
+}
+.ced-client-head {
+	text-align: center;
+	margin: 0 0px 50px;
+}
+.ced-client-review-wrap-wrapper {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.ced-client-wrap-head {
+	background-image: url("images/Testimonial.png");
+	width: 27%;
+	padding: 20px;
+	background-size: cover;
+	background-position: bottom;
+	box-shadow: 4px 4px 14px #eaeaea;
+}
+.ced-star-wrap i {
+	color: #fe9e02;
+	margin: 3px;
+	margin-bottom: 18px;
+}
+.ced-client-text-wrap h5 {
+	margin-top: 14px;
+	line-height: 27px;
+}
+.ced-repare.section-wrapper {
+	background: #f7f7f7;
+	padding: 94px 0;
+}
+.ced-card-content-wrapper {
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+.ced-repare-notes-wrapper {
+	text-align: center;
+}
+.ced-repare-head-wrap {
+	padding: 50px 0;
+	text-align: center;
+}
+.ced-card-content-wrapper {
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: space-between;
+}
+.ced-tire-section-wrapper {
+	padding: 100px 0;
+}
+.ced-tire-section-common-content {
+	display: flex;
+	text-align: right;
+	justify-content: space-between;
+}
+.ced-tire-section-common-content {
+	display: flex;
+	text-align: right;
+	justify-content: space-between;
+	width: 86%;
+	margin: 0 auto;
+}
+.ced-term-section-wrapper {
+	background: #f7f7f7;
+	padding: 100px 0;
+}
+.ced-term-section-common {
+	width: 80%;
+	margin: 0 auto;
+}
+.ced-comon-content-wrapper h2 {
+	text-align: center;
+	margin-bottom: 44px;
+}
+.ced-comon-content-wrapper p {
+	line-height: 24px;
+}
+.ced-notice-section-common-content-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.ced-notice-wrap {
+	width: 45%;
+}
+.ced-image-wrap-reset-notice {
+	width: 55%;
+}
+.ced-notice-com img {
+	width: 100%;
+}
+.ced-notice-wrap {
+	width: 45%;
+	margin-left: 6%;
+}
+.ced-notice-head h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+	line-height: 49px;
+}
+.ced-notice-head p {
+	font-family: Source-Sans-Pro-bold-normal;
+	margin-bottom: 8px;
+}
+.ced-notice-lisitng-wrapper {
+	margin-top: 30px;
+}
+.ced-notice-lisitng-wrapper ul li {
+	list-style-type: none;
+	font-family: Source-Sans-Pro-bold;
+	font-size: 22px;
+}
+.ced-notice-section-wrapper {
+	padding: 100px 0;
+}
+.ced-how-it-work-section-wrapper {
+	padding: 100px 0;
+}
+p {
+	line-height: 23px;
+}
+.ced-notice-lisitng-wrapper ul li span {
+	font-family: Source-Sans-Pro-normal-use;
+}
+.ced-color-red {
+	color: #ff0000;
+}
+.ced-repare-head-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 36px;
+}
+.ced-tire-col-first-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 36px;
+}
+.ced-tire-col-first-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 36px;
+}
+.ced-tire-col-first-wrap p {
+	font-family: Source-Sans-Pro-bold-normal;
+	font-size: 17px;
+}
+.ced-card-content-wrap-rapare h4 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.ced-card-content-wrap-rapare p {
+	font-family: Source-Sans-Pro-normal-use;
+}
+.ced-repare-notes-wrapper {
+	font-family: Source-Sans-Pro-normal-use;
+	font-size: 17px;
+}
+
+.ced-height{
+	font-family: Source-Sans-Pro;
+	font-size:56px;
+}
+/*seat-belt-1*/
+.ced-seat-belt-section-wrapper {
+	padding: 100px 0;
+}
+.ced-seat-belt-section-common-content-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.ced-seat-belt-wrap {
+	width: 45%;
+	margin-left: 6%;
+}
+.ced-seat-belt-head h2 {
+	font-family: Source-Sans-Pro-bold;
+    font-size: 57px;
+    line-height: 53px;
+    margin-bottom: 31px;
+}
+.ced-seat-belt-head p {
+	font-family: Source-Sans-Pro-bold-normal;
+	margin-bottom: 8px;
+
+}
+.ced-exp-first-dv{
+   width:38%;
+}
+.ced-exp-sec-dv{
+	width:48%;
+}
+.ced-gap{
+	width:15%;
+}
+.ced-term-footer-section-wrapper{
+    background: #fff;
+    padding: 100px 0;
+}
+.ced-client-wrap-head-new {
+	background-image: url("images/Testimonial.png");
+	width: 27%;
+	padding: 20px;
+	background-size: cover;
+	background-position: bottom;
+	
+}
+.ced-notice{
+  background: #f7f7f7;
+  padding: 30px;
+}
+.ced-seatbelt-notice-wrap{
+width: 75%;
+    margin: 0 auto;
+}
+.ced-seatbelt-notice-common-content {
+    display: flex;
+    margin: 41px 0;
+    justify-content: space-between;
+}
+.ced-reset-first-col h2{
+   font-family: Source-Sans-Pro-bold;
+   font-size: 20px;
+   line-height: 41px;
+}
+.ced-reset-notice-image-wrap img {
+    width: 100%;
+    margin-top: -10px;
+}
+.ced-notice-title{
+   font-size: 32px;
+   font-family: 'Source-Sans-Pro-extra-bold';
+}
+.ced-bold{
+	font-family: Source-Sans-Pro-bold!important;
+}
+.ced-exp-listing-wrap p{
+    font-size: 14px;
+    font-family: Source-Sans-Pro-bold-normal;
+    margin-bottom: 10px;
+    
+}
+.ced-repair-wrapper {
+    background: #fff;
+    padding: 80px 0;
+}
+ .ced-exp-seatbelt-first-wrap{
+    width: 39%;
+    padding-left:100px;
+    padding-right: 30px;
+}
+.ced-exp-seatbelt-second-exp-wrap {
+    width: 49%;
+    padding: 11px;
+}
+.ced-ul {
+  list-style: none;
+    line-height: 30px;
+	margin-bottom: 16px;
+	font-family: Source-Sans-Pro-bold-normal;
+}
+.ced-ul li::before {
+  content: "\2022";
+    color: #00bd3d;
+    font-weight: bold;
+    display: inline-block;
+    width: 21px;
+    margin-left: -1em;
+    font-size: 25px;
+}
+
+.ced-seat-belt-diag-wrap {
+    max-width: 90%;
+    margin: 60px auto;
+}
+.ced-seat-belt-diag-content-wrap {
+    display: flex;
+    align-items: end;
+    margin-top: 120px;
+    border-bottom: 2px solid #00bd3d;
+}
+.ced-seat-belt-diag-content {
+    text-align: left;
+    min-width: 35%;
+}
+.ced-seat-belt-diag-content p {
+    font-family: 'Source-Sans-Pro-bold-normal';
+}
+.ced-seat-belt-diag-wrap h2 {
+    font-family: 'Source-Sans-Pro-extra-bold';
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .ced-seat-belt-diag-wrap h3{
+    font-family: 'Source-Sans-Pro-extra-bold';
+    font-size: 42px;
+    }
+.ced-seat-belt-diag-content p b {
+    font-size: 22px;
+    font-family: 'Source-Sans-Pro-bold';
+}
+.ced-text-button{
+    font-size: 18px;
+    font-family: 'Source-Sans-Pro-bold-normal';
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.ced-sub-heading {
+    font-family: 'Source-Sans-Pro-bold-normal';
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+}
+.ced-seat-belt-diag-img img{
+	width:100%;
+	margin-bottom: 60px;
+}
+@media only screen and (max-width: 756px) {
+	.ced-logo-container img {
+	width: 80%;
+}
+.ced-airbag-wrapper {
+	display: block;
+	justify-content: space-between;
+}
+.ced-airbag-first-col-wrap {
+	width: 100%;
+}
+.ced-airbag-second-col-wrap {
+	width: 100%;
+	margin-top: 60px;
+}
+.ced-airbag-wrap-first h1 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 40px;
+	line-height: 44px;
+	margin-bottom: 30px;
+}
+.ced-work-section-wrap h2 {
+	font-size: 31px;
+}
+.ced-how-work-wrap-wrapper {
+	display: block;
+	background-image: unset;
+}
+.ced-first-card-wrapper {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.ced-exp-content-wrap {
+	display: block;
+	align-items: center;
+}
+.ced--first-exp-wrap {
+	width: 100%;
+	margin-right: 0;
+}
+.ced-second-exp-wrap {
+	width: 97%;
+	padding: 0 20px;
+	margin-top: 50px;
+}
+.ced-reset-section-wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+.ced-experience-wrap {
+	width: 95%;
+	margin: 0 auto;
+}
+.ced-reset-first-col {
+	width: 100%;
+}
+.ced-reset-section-common-content {
+	display: block;
+	margin: 100px 0;
+	justify-content: space-between;
+}
+.ced-reset-col-first-wrap h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 42px;
+	width: 100%;
+}
+.ced-second-reset-wrap {
+	width: 100%;
+	margin-top: 60px;
+}
+.ced-client-review-wrap-wrapper {
+	display: block;
+	text-align: center;
+	justify-content: space-between;
+}
+.ced-client-wrap-head {
+	background-image: url("images/Testimonial.png");
+	width: 92%;
+	padding: 20px;
+	background-size: cover;
+	background-position: bottom;
+	box-shadow: 4px 4px 14px #eaeaea;
+	margin-bottom: 50px;
+}
+.ced-notice-section-common-content-wrapper {
+	display: block;
+	justify-content: space-between;
+}
+.ced-notice-wrap {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.ced-card-content-wrapper {
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: space-between;
+}
+.ced-repare-card-content-wrap {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.ced-tire-col-first-wrap {
+	width: 100%;
+	float: none;
+}
+.ced-tire-section-common-content {
+	display: block;
+	text-align: right;
+	justify-content: space-between;
+	width: 86%;
+	margin: 0 auto;
+}
+.ced-comon-content-wrapper h2 {
+	font-family: Source-Sans-Pro-bold;
+	font-size: 36px;
+}
+.ced-tire-image-wrap img {
+	width: 100%;
+}
+
+/*new*/
+.ced-seat-belt-section-common-content-wrapper{
+ display: block;
+}
+.ced-seat-belt-wrap {
+    width: 91%;
+}
+.ced-image-wrap-reset-notice {
+    width: 95%;
+}
+
+.ced-client-wrap-head-new {
+    background-image: url(images/Testimonial.png);
+    width: 97%;
+    padding: 20px;
+    background-size: cover;
+    background-position: bottom;
+}
+.ced-notice-com img {
+    width: 97%;
+    padding: 30px;
+}
+.ced-text-button {
+    padding: 0px 30px 20px;
+}
+.ced-seat-belt-diag-content-wrap {
+    display: block;
+    margin-top:60px;
+}
+.ced-seatbelt-notice-common-content {
+    display: block;
+}
+.ced-seat-belt-diag-img img {
+    width: 87%;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.ced-exp-seatbelt-first-wrap {
+    width: 75%;
+    }
+.ced-exp-seatbelt-second-exp-wrap {
+    width: auto;
+}
+.ced-first-exp-image-wrap img {
+    width: 92%;
+    padding: 0px 20px;
+}
+.ced-client-text-wrap p {
+    font-family: Source-Sans-Pro-normal-use;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+}
